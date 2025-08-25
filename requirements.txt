@@ -10,7 +10,7 @@ chromadb
 faiss-cpu
 
 unstructured[md,pdf]
-
+gunicorn
 # Utilities
 python-dotenv
 requests

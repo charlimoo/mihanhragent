@@ -1,0 +1,16 @@
+# Core Frameworks
+chainlit
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+
+# For Vector Store & Embeddings (RAG)
+chromadb
+faiss-cpu
+
+unstructured[md,pdf]
+
+# Utilities
+python-dotenv
+requests

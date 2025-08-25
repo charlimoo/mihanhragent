@@ -1,0 +1,25 @@
+.watermark {
+    display: none !important;
+    }
+
+div#chat-input {
+    direction: rtl;
+}
+
+.leading-7 {
+    direction: rtl;
+}
+
+.list-decimal {
+    direction: rtl;
+}
+
+li {
+    direction: rtl;
+    text-align: right;
+}
+
+textarea#chat-input {
+    text-align: right;
+    direction: rtl;
+}

@@ -1,0 +1,214 @@
+{
+    "common": {
+        "actions": {
+            "cancel": "لغو",
+            "confirm": "تأیید",
+            "continue": "ادامه",
+            "goBack": "بازگشت",
+            "reset": "بازنشانی",
+            "submit": "ارسال"
+        },
+        "status": {
+            "loading": "در حال بارگذاری...",
+            "error": {
+                "default": "خطایی رخ داد",
+                "serverConnection": "امکان برقراری ارتباط با سرور وجود ندارد"
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "برای دسترسی به برنامه وارد شوید",
+            "form": {
+                "email": {
+                    "label": "آدرس ایمیل",
+                    "required": "ایمیل یک فیلد ضروری است"
+                },
+                "password": {
+                    "label": "رمز عبور",
+                    "required": "رمز عبور یک فیلد ضروری است"
+                },
+                "actions": {
+                    "signin": "ورود"
+                },
+                "alternativeText": {
+                    "or": "یا"
+                }
+            },
+            "errors": {
+                "default": "ورود ناموفق بود",
+                "signin": "با یک حساب دیگر وارد شوید",
+                "oauthSignin": "با یک حساب دیگر وارد شوید",
+                "redirectUriMismatch": "URI تغییر مسیر با پیکربندی برنامه oauth مطابقت ندارد",
+                "oauthCallback": "با یک حساب دیگر وارد شوید",
+                "oauthCreateAccount": "با یک حساب دیگر وارد شوید",
+                "emailCreateAccount": "با یک حساب دیگر وارد شوید",
+                "callback": "با یک حساب دیگر وارد شوید",
+                "oauthAccountNotLinked": "برای تأیید هویت خود، با همان حسابی که در ابتدا استفاده کردید وارد شوید",
+                "emailSignin": "ایمیل ارسال نشد",
+                "emailVerify": "لطفاً ایمیل خود را تأیید کنید، ایمیل جدیدی ارسال شده است",
+                "credentialsSignin": "ورود ناموفق بود. جزئیات ارائه شده را بررسی کنید",
+                "sessionRequired": "لطفاً برای دسترسی به این صفحه وارد شوید"
+            }
+        },
+        "provider": {
+            "continue": "ادامه با {{provider}}"
+        }
+    },
+    "chat": {
+        "input": {
+            "placeholder": "پیام خود را اینجا تایپ کنید...",
+            "actions": {
+                "send": "ارسال پیام",
+                "stop": "توقف وظیفه",
+                "attachFiles": "پیوست کردن فایل‌ها"
+            }
+        },
+        "speech": {
+            "start": "شروع ضبط",
+            "stop": "توقف ضبط",
+            "connecting": "در حال اتصال"
+        },
+        "fileUpload": {
+            "dragDrop": "فایل‌ها را اینجا بکشید و رها کنید",
+            "browse": "مرور فایل‌ها",
+            "sizeLimit": "محدودیت:",
+            "errors": {
+                "failed": "بارگذاری ناموفق بود",
+                "cancelled": "بارگذاری لغو شد از"
+            }
+        },
+        "messages": {
+            "status": {
+                "using": "در حال استفاده از",
+                "used": "استفاده شده"
+            },
+            "actions": {
+                "copy": {
+                    "button": "کپی در کلیپ‌بورد",
+                    "success": "کپی شد!"
+                }
+            },
+            "feedback": {
+                "positive": "مفید بود",
+                "negative": "مفید نبود",
+                "edit": "ویرایش بازخورد",
+                "dialog": {
+                    "title": "افزودن نظر",
+                    "submit": "ارسال بازخورد"
+                },
+                "status": {
+                    "updating": "در حال به‌روزرسانی",
+                    "updated": "بازخورد به‌روز شد"
+                }
+            }
+        },
+        "history": {
+            "title": "آخرین ورودی‌ها",
+            "empty": "اینجا خالی است...",
+            "show": "نمایش تاریخچه"
+        },
+        "settings": {
+            "title": "پنل تنظیمات"
+        },
+        "watermark": "ساخته شده با"
+    },
+    "threadHistory": {
+        "sidebar": {
+            "title": "چت‌های گذشته",
+            "filters": {
+                "search": "جستجو",
+                "placeholder": "جستجوی گفتگوها..."
+            },
+            "timeframes": {
+                "today": "امروز",
+                "yesterday": "دیروز",
+                "previous7days": "۷ روز گذشته",
+                "previous30days": "۳۰ روز گذشته"
+            },
+            "empty": "هیچ مکالمه‌ای یافت نشد",
+            "actions": {
+                "close": "بستن نوار کناری",
+                "open": "باز کردن نوار کناری"
+            }
+        },
+        "thread": {
+            "untitled": "گفتگوی بدون عنوان",
+            "menu": {
+                "rename": "تغییر نام",
+                "delete": "حذف"
+            },
+            "actions": {
+                "delete": {
+                    "title": "تأیید حذف",
+                    "description": "این عمل مکالمه و همچنین پیام‌ها و عناصر آن را حذف خواهد کرد. این عمل قابل بازگشت نیست",
+                    "success": "چت حذف شد",
+                    "inProgress": "در حال حذف چت"
+                },
+                "rename": {
+                    "title": "تغییر نام مکالمه",
+                    "description": "نام جدیدی برای این مکالمه وارد کنید",
+                    "form": {
+                        "name": {
+                            "label": "نام",
+                            "placeholder": "نام جدید را وارد کنید"
+                        }
+                    },
+                    "success": "نام مکالمه تغییر کرد!",
+                    "inProgress": "در حال تغییر نام مکالمه"
+                }
+            }
+        }
+    },
+    "navigation": {
+        "header": {
+            "chat": "چت",
+            "readme": "راهنما",
+            "theme": {
+                "light": "پوسته روشن",
+                "dark": "پوسته تاریک",
+                "system": "پیروی از سیستم"
+            }
+        },
+        "newChat": {
+            "button": "چت جدید",
+            "dialog": {
+                "title": "ایجاد چت جدید",
+                "description": "این عمل تاریخچه چت فعلی شما را پاک می‌کند. آیا از ادامه مطمئن هستید؟",
+                "tooltip": "چت جدید"
+            }
+        },
+        "user": {
+            "menu": {
+                "settings": "تنظیمات",
+                "settingsKey": "S",
+                "apiKeys": "کلیدهای API",
+                "logout": "خروج"
+            }
+        }
+    },
+    "apiKeys": {
+        "title": "کلیدهای API ضروری",
+        "description": "برای استفاده از این برنامه، کلیدهای API زیر ضروری هستند. کلیدها در حافظه محلی دستگاه شما ذخیره می‌شوند.",
+        "success": {
+            "saved": "با موفقیت ذخیره شد"
+        }
+    },
+    "alerts": {
+        "info": "اطلاعات",
+        "note": "یادداشت",
+        "tip": "نکته",
+        "important": "مهم",
+        "warning": "هشدار",
+        "caution": "احتیاط",
+        "debug": "اشکال‌زدایی",
+        "example": "مثال",
+        "success": "موفقیت",
+        "help": "راهنما",
+        "idea": "ایده",
+        "pending": "در انتظار",
+        "security": "امنیت",
+        "beta": "بتا",
+        "best-practice": "بهترین روش"
+    }
+}

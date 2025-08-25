@@ -23,10 +23,6 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # Copy the rest of the application code into the container
 COPY . .
 
-# Run the data ingestion script during the build process
-# This pre-builds the vector store into the image
-RUN python ingest.py
-
 # Expose the port the app runs on
 EXPOSE 8000
 

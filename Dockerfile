@@ -28,4 +28,4 @@ EXPOSE 8000
 
 # Define the command to run the application using a production-grade server
 # Gunicorn manages Uvicorn workers for a robust ASGI setup
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "app:app", "-b", "0.0.0.0:8000"]
+CMD ["chainlit", "run", "app.py", "-w", "--host", "0.0.0.0", "--port", "8000"]
